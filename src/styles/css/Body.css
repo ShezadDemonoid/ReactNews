@@ -1,0 +1,14 @@
+/*# sourceMappingURL=Body.css.map */
+
+.news-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.card-size {
+    width: 450px;
+    height: 600px;
+    margin-bottom: 10px;
+    
+}
