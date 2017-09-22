@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import { News } from './component/News';
-import './styles/css/Body.css'
+import './styles/scss/index.css';
 
 class App extends Component {
   render() {
     return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-dRK  bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark  bg-dark">
         <div className="container">
-          <a className="navbar-brand text-light" >REACTNEWS</a>
+            <a className="navbar-brand text-light logo-font" >React News</a>
           <img src={logo} className="App-logo" alt="logo" />
         </div>
       </nav>
