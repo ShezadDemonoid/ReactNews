@@ -1,0 +1,17 @@
+.news-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.card-size {
+    width: 450px;
+    height: 800px;
+    margin-bottom: 10px;
+}
+
+.logo-font {
+    font-family: 'Baloo', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+}
